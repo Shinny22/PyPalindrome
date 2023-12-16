@@ -27,21 +27,21 @@ def SuppEspace(machaine):
    
 
 
-    # # ma chaine inversée
-    # inverseChaine=chaineTranslate[ : :-1]
-    # print(inverseChaine)
+    # ma chaine inversée
+    inverseChaine=chaineTranslate[ : :-1]
+    print(inverseChaine)
 
-    # # ma chaine inversée réarrangée
-    # chaineFinale=inverseChaine.replace(""," ")
-    # print(chaineFinale)
+    #  ma chaine inversée réarrangée
+    chaineFinale=inverseChaine.replace(""," ")
+    print(chaineFinale)
 
-    # # sep=" "
-    # # inverseChaine=sep.join(inverseChaine)
+    # sep=" "
+    # inverseChaine=sep.join(inverseChaine)
      
-    # #  Test de conformité
-    # if (chaineFinale==machaine):
-    #     print(machaine,"est un palindrome")
-    # else:
-    #     print(machaine,"n'est un palindrome")
+    # Test de conformité
+    if (chaineFinale==machaine):
+        print(machaine,"est un palindrome")
+    else:
+        print(machaine,"n'est un palindrome")
 
 SuppEspace(machaine)
